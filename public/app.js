@@ -2,9 +2,7 @@
 
 // ═══════════════ Google OAuth Config ═══════════════
 // Replace with your Google Cloud OAuth web client ID
-const GOOGLE_CLIENT_ID = window.location.hostname === 'localhost'
-    ? 'YOUR_CLIENT_ID.apps.googleusercontent.com'  // TODO: Replace
-    : 'YOUR_CLIENT_ID.apps.googleusercontent.com';  // TODO: Replace
+const GOOGLE_CLIENT_ID = '407086729971-0cjr9lp0pnletih5c29oh02ltc3bboup.apps.googleusercontent.com';
 
 const GMAIL_SCOPE = 'https://www.googleapis.com/auth/gmail.readonly';
 
